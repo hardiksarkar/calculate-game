@@ -43,6 +43,7 @@ h1{
     background-color: rgb(255, 133, 133);
     color: rgb(132, 22, 22);
     font-size: 40px;
+    text-shadow: 2px 2px 5px;
 }
 #line-1{
     font-weight: bold;
