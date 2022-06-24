@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(254, 254, 217);
+}
+#div-1{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+}
+h1>p{
+    font-size: 15px;
+}
+#div-1-child{
+    text-align: center;
+}
+#div-1-child p{
+    padding: 2px;
+}
+#quote{
+    font-size: 20px;
+    font-weight: bold;
+}
+#expression{
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+h1{
+    padding: 65px;
+    text-align: center;
+    background-color: rgb(255, 133, 133);
+    color: rgb(132, 22, 22);
+    font-size: 40px;
+}
+#line-1{
+    font-weight: bold;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 68vh;
+}
+button{
+    cursor: pointer;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 25vw;
+    border-style: none;
+    box-shadow: 4px 4px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+button:hover{
+    box-shadow: 2px 2px 6px;
+}
+#start{
+    background-color: rgb(91, 216, 174);
+    color: rgb(21, 74, 56);
+}
+#reset{
+    background-color: rgb(237, 124, 124);
+    color: rgb(69, 14, 14);
+}
+#answer{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid black;
+}
+
+input[type=number]{          /* disables input focus auto zoom in mobiles */
+    touch-action: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#start-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: absolute;
+    top: 23vh;
+}
+#start-div>*{
+    padding: 5px;
+}
+#sd1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#sd2{
+    font-size: 20px;
+    font-weight: bold;
+}
+#sd3{
+    font-size: 26px;
+}
+#main-start{
+    padding: 15px;
+    width: 40vw;
+    font-size: 25px;
+    background-color: aqua;
+    color: rgb(16, 66, 66);
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 0px !important;
+}
+#offend{
+    font-size: 12px;
+    padding-top: 0px;
+}
+
+@media all and (max-width:480px){
+    h1{
+        padding: 25px;
+        font-size: 20px;
+    }
+    h1>p{
+        font-size: 7px;
+    }
+    #container{
+        height: 70vh;
+    }
+    #div-1{
+        padding: 10px;
+        margin: 8px;
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+    #quote{
+        font-size: 14px;
+    }
+    #expression{
+        padding: 10px;
+        margin-top: 12px;
+        padding-top: 12px;
+        font-size: 25px;
+    }
+    button{
+        width: 100%;
+        padding: 12px;
+        margin: 10px;
+        font-size:12px;
+    }
+    #submit{
+        width: 60%;
+        margin: 15px;
+    }
+    #button-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+    }
+    #button-div>*{
+        margin: 7px;
+    }
+    #start-div{
+        padding: 30px;
+        position: absolute;
+        top: 25vh;
+    }
+    #main-start{
+        padding: 15px;
+        width: 50vw;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    #sd1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #sd2{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #sd3{
+        font-size: 18px;
+    }
+    img{
+        width: 120px;
+    }
+    #offend{
+        padding-top: 8px;
+    }
+}
+
+@media all and (max-height:600px){
+    h1{
+        padding: 18px;
+        font-size: 15px;
+    }
+    #div-1{
+        padding: 5px;
+        margin: 5px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        font-size: 17px;
+    }
+    #div-1>*{
+        font-size: 15px;
+    }
+    #expression{
+        margin: 8px;
+        padding: 5px;
+        font-size: 25px;
+    }
+    button{
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+        font-size:12px;
+    }
+    #button-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 70%;
+    }
+    #answer{
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    #submit{
+        width: 45%;
+        margin: 5px;
+        margin-bottom: 10px;
+        padding: 12px;
+    }
+    #line-1{
+        font-size: 12px;
+    }
+    #button-div>*{
+        margin: 6px;
+        padding: 10px;
+        width: 60%;
+    }
+    #start-div{
+        padding: 30px;
+        position: absolute;
+        top: 10vh;
+    }
+}
+
+.hidden{
+    display: none !important;
+}
